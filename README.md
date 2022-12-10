@@ -1,1 +1,1 @@
-Hello ! # __ rsschool-cv __ #
+*CV* https://github.com/Amvees/rsschool-cv.git
