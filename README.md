@@ -1,1 +1,1 @@
-Hello # rsschool-cv!
+ # rsschool-cv!
