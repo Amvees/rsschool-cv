@@ -1,1 +1,1 @@
-*CV* https://github.com/Amvees/rsschool-cv.git
+** Link ** https://amvees.github.io/rsschool-cv
