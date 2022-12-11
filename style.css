@@ -20,20 +20,25 @@ ul{
 
 img{
     height: 200px;
-    width: 150px;
+    width: 180px;
     margin: 20px;
 }
 
 .main-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
+.about-me-container{
+    position: absolute;
+    right: 100px;
+    top: 0;
+}
 .contacts{
     position: relative;
     top:0;
+    max-width: 250px;
     margin: 10px;
+    
 }
 
 .my-strengths{
