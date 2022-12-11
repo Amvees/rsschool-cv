@@ -1,1 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+body {
+    line-height: 1,6;
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts{
+    position: relative;
+    top:0;
+    margin: 10px;
+}
+
+.my-strengths{
+    margin: 10px 0;
+}
+
+.my-goal {
+    margin: 5px 0;
+}
