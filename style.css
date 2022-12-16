@@ -14,14 +14,34 @@ body {
     
 }
 
+.strengths {
+    font-weight: 600;
+}
+
+.goal{
+    font-weight: 600;
+}
+
 ul{
     list-style: none;
 }
 
-img{
+.my-photo{
     height: 200px;
     width: 180px;
     margin: 20px;
+}
+
+.logo {
+    width: 20%;
+    margin: 50px;
+    position: absolute;
+    left: 40%;
+    right: auto;
+    bottom: 0;
+    border: 0px solid #03aabd;
+    box-shadow: 5px 5px 35px black;
+    
 }
 
 strong {
@@ -45,6 +65,33 @@ strong {
     max-width: 250px;
     margin: 10px;
     
+}
+
+.contacts-item{
+    margin-left: 5px;
+    
+}
+
+.phone {
+    margin-left: 5px;
+    
+}
+
+.tel-item{
+    color: #03aabd;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mail {
+    margin-left: 5px;
+    
+}
+
+.email-item{
+    color: #03aabd;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .my-strengths{
