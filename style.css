@@ -98,12 +98,14 @@ strong {
 }
 
 .about-me-container{
-    max-width: 60%;
+    max-width: 1100px;
     max-height: 100px;
     position: relative;
     right: -400px;
     top: -550px;
     left: auto;
+    margin-left: -10px;
+    padding-right: 10px;
 }
 
 .contacts{
@@ -166,4 +168,19 @@ p{
     font-weight: 500;
     color: rgb(20, 41, 41);
     font-size: 18px;
+}
+
+.github-item{
+    position: fixed;
+    bottom: 50px;
+    left: 450px;
+
+}
+
+.footer-text{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 30px;
 }
