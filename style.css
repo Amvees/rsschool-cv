@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    line-height: 1,8;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+.strengths {
+    font-weight: 600;
+}
+
+.goal{
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+}
+
+.my-photo{
+    height: 280px;
+    width: 250px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.logo {
+    max-width: 80vh;
+    height: 50px;
+    margin: -50px 50px 50px 50px;
+    position: fixed;
+    left: 38%;
+    right: auto;
+    bottom: 0;
+    border: 0px solid #03aabd;
+    box-shadow: 5px 5px 30px black;
+    
+}
+
+.phone-icon{
+    width: 30px;
+}
+
+.email-icon{
+    width: 30px;
+    margin: 0;
+   
+}
+
+.location-icon{
+    width: 40px;
+    margin: 0;
+}
+
+.languages-icon{
+    width: 30px;
+    margin-left: 5px;
+}
+
+.location-item{
+    margin-left: 1px;
+    color: #03aabd;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.languages-item{
+    margin-left: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.phone:hover{
+    box-shadow: 1px 1px 20px #03aabd;
+}
+
+
+.mail:hover{
+    box-shadow: 1px 1px 20px #03aabd;
+}
+
+strong {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 42px;
+    color: #03aabd;
+}
+
+.about-me-container{
+    max-width: 1100px;
+    max-height: 100px;
+    position: relative;
+    right: -400px;
+    top: -550px;
+    left: auto;
+    margin-left: -10px;
+    padding-right: 10px;
+}
+
+.contacts{
+    position: relative;
+    top:0;
+    max-width: 250px;
+    margin-left: 40px;
+    
+}
+
+.contacts-item{
+    margin-left: 5px;
+    
+}
+
+.phone {
+    margin-left: 5px;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.tel-item{
+    color: #03aabd;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mail {
+    margin-left: 5px;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.email-item{
+    color: #03aabd;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.my-strengths{
+    margin: 10px 0;
+}
+
+.my-goal {
+    margin: 5px 0;
+    max-width: 600px;
+}
+
+h3{
+    margin: 5px 0px;
+}
+
+p{
+    font-weight: 400;
+}
+
+.name-company{
+    font-weight: 500;
+    color: rgb(20, 41, 41);
+    font-size: 18px;
+}
+
+.github-item{
+    position: fixed;
+    bottom: 50px;
+    left: 450px;
+
+}
+
+.footer-text{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 30px;
+}
