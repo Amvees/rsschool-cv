@@ -29,10 +29,11 @@ ul{
 }
 
 .my-photo{
-    height: 280px;
+    height: 260px;
     width: 250px;
     margin: 20px;
     border: 1px solid black;
+    border-radius: 50%;
 }
 
 .logo {
@@ -184,6 +185,7 @@ p{
     font-weight: 700;
     margin-left: 600px;
     margin-right: 600px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 5px;
+    color: darkgreen;
 }
