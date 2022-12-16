@@ -4,6 +4,8 @@ body {
     line-height: 1,8;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(170deg, rgba(229,188,249,0.5889706224286589) 39%, rgba(212,181,181,0.4181022750897234) 57%, rgba(229,188,249,1) 93%);
+
 }
 
 *{
