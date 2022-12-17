@@ -5,7 +5,9 @@ body {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(170deg, rgba(229,188,249,0.5889706224286589) 39%, rgba(212,181,181,0.4181022750897234) 57%, rgba(229,188,249,1) 93%);
-
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 *{
@@ -39,8 +41,8 @@ ul{
 .logo {
     max-width: 80vh;
     height: 50px;
-    margin: -50px 50px 50px 50px;
-    position: fixed;
+    padding: -50px 50px 40px 50px;
+    position: relative;
     left: 38%;
     right: auto;
     bottom: 0;
@@ -129,6 +131,7 @@ strong {
     color: black;
     font-weight: 600;
     border-radius: 5px;
+    padding-top: 0;
 }
 
 .tel-item{
@@ -174,8 +177,9 @@ p{
 }
 
 .github-item{
-    position: fixed;
-    bottom: 50px;
+    position: relative;
+    padding: -50px 50px 40px 50px;
+    bottom: 0;
     left: 450px;
 
 }
@@ -183,9 +187,14 @@ p{
 .footer-text{
     font-size: 18px;
     font-weight: 700;
-    margin-left: 600px;
-    margin-right: 600px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    padding: 0 600px;
+    margin: 0;
     color: darkgreen;
 }
+
+code {
+    color: crimson;
+    background: #98979759;
+    padding: 2px;
+    font-size: 24px;
+  }
