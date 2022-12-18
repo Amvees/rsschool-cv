@@ -24,11 +24,20 @@ body {
 
 .goal{
     font-weight: 600;
+    margin: 0;
 }
 
 ul{
     list-style: none;
 }
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    height: 100hv;
+}
+
+
 
 .my-photo{
     height: 260px;
@@ -41,11 +50,9 @@ ul{
 .logo {
     max-width: 80vh;
     height: 50px;
-    padding: -50px 50px 40px 50px;
+    padding: 5px 10px;
     position: relative;
-    left: 38%;
-    right: auto;
-    bottom: 0;
+    bottom: -100px;
     border: 0px solid #03aabd;
     box-shadow: 5px 5px 30px black;
     
@@ -103,19 +110,20 @@ strong {
 }
 
 .about-me-container{
-    max-width: 1100px;
-    max-height: 100px;
+    max-width: 600px;
+    height: 100px;
     position: relative;
-    right: -400px;
-    top: -550px;
-    left: auto;
+    top: 0;
+    left: 100px;
     margin-left: -10px;
     padding-right: 10px;
 }
 
 .contacts{
-    position: relative;
-    top:0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
     max-width: 250px;
     margin-left: 40px;
     
@@ -154,11 +162,11 @@ strong {
 }
 
 .my-strengths{
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .my-goal {
-    margin: 5px 0;
+    margin: 0;
     max-width: 600px;
 }
 
@@ -168,26 +176,49 @@ h3{
 
 p{
     font-weight: 400;
+    margin: 5px 0;
 }
 
 .name-company{
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(20, 41, 41);
     font-size: 18px;
 }
 
+.github-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .github-item{
     position: relative;
-    padding: -50px 50px 40px 50px;
-    bottom: 0;
-    left: 450px;
+    bottom: -100px;
+    margin: 5px 10px;
+}
 
+footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-text{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    padding: 0 600px;
+    position: relative;
+    bottom: -140px;
+    right: 120px;
     margin: 0;
     color: darkgreen;
 }
@@ -195,6 +226,7 @@ p{
 code {
     color: crimson;
     background: #98979759;
-    padding: 2px;
+    padding: 2px 1px 0 0;
     font-size: 24px;
+    margin: 0;
   }
