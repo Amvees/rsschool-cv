@@ -15,6 +15,14 @@ body {
 }
 .main-container{
     background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-contacts-container{
+    position: relative;
+    left: -300px;
 }
 
 .strengths {
@@ -29,8 +37,12 @@ ul{
     list-style: none;
 }
 
+h2{
+    margin: 5px;
+}
+
 .my-photo{
-    height: 280px;
+    height: 260px;
     width: 250px;
     margin: 20px;
     border: 1px solid black;
@@ -106,13 +118,14 @@ strong {
 }
 
 .about-me-container{
+
+    position: relative;
+    right: -200px;
+    top: -550px;
     max-width: 1100px;
     max-height: 100px;
-    position: relative;
-    right: -400px;
-    top: -550px;
-    left: auto;
-    margin-left: -10px;
+    
+    margin-left: 50px;
     padding-right: 10px;
     margin-bottom: 0;
 }
@@ -123,8 +136,9 @@ strong {
 }
 
 .contacts{
-    position: relative;
-    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     max-width: 250px;
     margin-left: 40px;
     
