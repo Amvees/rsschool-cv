@@ -13,7 +13,6 @@ body {
     box-sizing: border-box;
     
 }
-
 .main-container{
     background-color: azure;
 }
@@ -40,14 +39,18 @@ ul{
 .logo {
     max-width: 80vh;
     height: 50px;
-    margin: -50px 50px 50px 50px;
-    position: fixed;
+    margin: 0 10px;
+    padding: 5px 0;
+    position: relative;
     left: 38%;
     right: auto;
-    bottom: 0;
+    top: 0px;
     border: 0px solid #03aabd;
     box-shadow: 5px 5px 30px black;
     
+}
+.logo:hover{
+    box-shadow: 1px 1px 50px #03aabd;
 }
 
 .phone-icon{
@@ -110,6 +113,12 @@ strong {
     left: auto;
     margin-left: -10px;
     padding-right: 10px;
+    margin-bottom: 0;
+}
+
+.working-container{
+    margin: 0;
+    padding: 0;
 }
 
 .contacts{
@@ -174,11 +183,36 @@ p{
     font-size: 18px;
 }
 
-.github-item{
-    position: fixed;
-    bottom: 50px;
-    left: 450px;
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+  }
 
+  .code-exemple{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 60px;
+  }
+
+  footer{
+    background-color: #bdd3d4;
+    padding: 20px;
+  }
+
+.github-item{
+    position: relative;
+    bottom: 10px;
+    left: 30%;
+
+}
+
+.github-item:hover{
+    box-shadow: 1px 1px 50px #03aabd;
 }
 
 .footer-text{
