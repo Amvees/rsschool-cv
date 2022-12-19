@@ -2,48 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>My CV (html,css)</title>
 </head>
 <body>
 
+     <!--
+    <header>
+        <main>
+        <nav>
+        <ul>
+        <li><a href="#"">Contacts</a></li>
+        <li>My projects</li>
+        </ul>
+        </nav>
+    </main>
+    </header>
+    -->
+
     <!--main container-->
 
     <div class="main-container">
-        <div class="container">
-            <!--Photo-->
 
-            <div class="image">
-                <img src="./image/logo.jpg" alt="photo" class="my-photo">
+        <!--Photo-->
+
+        <div class="image">
+            <img src="./image/logo.jpg" alt="photo" class="my-photo">
+        </div>
+
+        <!--Contacts container-->
+
+        <div class="contacts">
+
+            <div class="contacts-item">
+               <strong class="tel-item"></strong><img class="phone-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8f1eHfQjdl_TxsP1sJ3VNEX3B__S01fiP_6W3TeP1yg&s" alt=""><a class="phone" href="tel:+380986800160">+38 098 68 00 160</a>
             </div>
 
-            <!--Contacts container-->
+            <div class="contacts-item">
+                <strong class="email-item"></strong><img class="email-icon" src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-email-2.png" alt=""></strong><a class="mail" href="mailto:chornyiav@gmail.com">mogilovvs@gmail.com</a>
+            </div>
 
-            <div class="contacts">
-                <ul class="contacts-item">
-                    <li class="contacts-item">
-                    <strong class="tel-item"></strong><img class="phone-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt=""><a class="phone" href="#">@MVS1986</a>
-                    </li>
+            <div class="location">
+                <img class="location-icon" src="https://t3.ftcdn.net/jpg/03/98/38/06/360_F_398380607_zChDgI9jMSPgjcnJlbQOfl5O1Fae1Gjr.jpg" alt="location icon"> <strong class="location-item">Ukraine</strong>
+            </div>
 
-                    <li class="contacts-item">
-                        <strong class="email-item"></strong><img class="email-icon" src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-email-2.png" alt=""></strong><a class="mail" href="mailto:chornyiav@gmail.com">mogilovvs@gmail.com</a>
-                    </li>
-
-                    <li class="location">
-                        <img class="location-icon" src="https://freesvg.org/img/ts-map-pin.png" alt="location icon"> <strong class="location-item">Ukraine</strong>
-                    </li>
-                </ul>
-                <div class="languages">
+            <div class="languages">
+                 
+                <strong class="languages-item"> <h3>languages:</h3>
+                        English: B1 <br>
+                        Ukraine: Native <br>
+                        Russia: C1
                     
-                    <strong class="languages-item"> <h3>Languages:</h3></strong>
-                    <ul>
-                        <li>&#9873; English: B1</li>
-                        <li>&#9873; Ukraine: Native</li>
-                        <li>&#9873; Russia: C1</li>
-                    </ul>
-                </div>
+                </strong>
             </div>
         </div>
 
@@ -55,14 +68,14 @@
 
             <div class="my-strengths">
 
-                <h3 class="strengths">Soft Skills:</h3>
+                <h3 class="strengths">My strengths:</h3>
 
                 <ul>
                     
-                    <li>&lt;Teamwork&gt;</li>
-                    <li>&lt;Adaptability&gt;</li>
-                    <li>&lt;Purposefulness&gt;</li>
-                    <li>&lt;Problem solving&gt;</li>
+                    <li>Teamwork</li>
+                    <li>Adaptability</li>
+                    <li>Purposefulness</li>
+                    <li>Problem solving</li>
                 </ul>
             </div>
 
@@ -70,8 +83,8 @@
 
             
             <div class="my-goal">
-                <h3 class="goal">About me:</h3>
-                <p>My goal larn and understand the basics of programming that what I need to know and be able to find employment this year(API, Javascript, TypeScript, React, Redux, Jquery).</p>
+                <h3 class="goal">My goal:</h3>
+                <p>Learn and understand the basics of programming that you need to know and be able to find employment this year(API, Javascript, TypeScript, React, Redux, Jquery).</p>
                 
             </div>
 
@@ -86,54 +99,33 @@
             <!--working-->
             <div class="working-container">
                 <h3 class="work">Places of work:</h3>
-                <p> &#10002; SMM manager, social media administrator</p>
+                <p>SMM manager, social media administrator</p>
                 <p><strong class="name-company">RoseCase</strong></p>
-                
-                <p> &#36; Store administrator, sales consultant</p>
+                <br>
+                <p>Store administrator, sales consultant</p>
                 <p><strong class="name-company">Sota-Alliance (Kyivstar)</strong></p>
-                
-                <p> &#9742; Call-centre operator: <strong class="name-company">Monsterleed</strong></p>
-                
-            </div>
-
-            <!--Code exemple-->
-            <div class="code-box">
-                <h2>Code exemple:
-                    
-                </h2>
-                <p>
-                    <code>&lt;code&gt; <br>&lt;p&gt;Paragraph&lt;&#47;p&gt; <br>
-                        &lt;a&gt;Link&lt;&#47;a&gt; <br>
-                        &lt;&#47;code&gt;
-                    </code>
-                </p>
+                <br>
+                <p>Call-centre operator</p>
+                <p><strong class="name-company">Monsterleed</strong></p>
             </div>
         </div>
 
 
     </div>
 
-                   <!---Footer-->
+    <!---Footer-->
 
-         <footer>
-            <div class="footer-container">
+    <footer>
+       <a href="https://github.com/Amvees">
 
-                <div class="github-container">
-                    <a href="https://github.com/Amvees">
-        
-                        <strong class="github-item">Github</strong>
-                    </a>
-                </div>
+            <strong class="github-item">Github</strong>
+        </a>
 
-                <div class="rsschool-container">
-                    <a class="link-logo" href="https://rs.school/js/">
-        
-                        <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
-                    </a>
-                </div>
-                <p class="footer-text">2022 &#9809;</p>
-            </div>
-         </footer>
+        <a class="link-logo" href="https://rs.school/js/">
 
+            <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+        </a>
+        <p class="footer-text">16.12.2022</p>
+    </footer>
 </body>
 </html>
