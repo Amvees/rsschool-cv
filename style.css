@@ -14,6 +14,10 @@ body {
     
 }
 
+.main-container{
+    background-color: azure;
+}
+
 .strengths {
     font-weight: 600;
 }
