@@ -4,10 +4,6 @@ body {
     line-height: 1,8;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(170deg, rgba(229,188,249,0.5889706224286589) 39%, rgba(212,181,181,0.4181022750897234) 57%, rgba(229,188,249,1) 93%);
-    height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 *{
@@ -18,41 +14,37 @@ body {
     
 }
 
+.main-container{
+    background-color: azure;
+}
+
 .strengths {
     font-weight: 600;
 }
 
 .goal{
     font-weight: 600;
-    margin: 0;
 }
 
 ul{
     list-style: none;
 }
 
-.main-container{
-    display: flex;
-    justify-content: center;
-    height: 100hv;
-}
-
-
-
 .my-photo{
-    height: 260px;
+    height: 280px;
     width: 250px;
     margin: 20px;
     border: 1px solid black;
-    border-radius: 50%;
 }
 
 .logo {
     max-width: 80vh;
     height: 50px;
-    padding: 5px 10px;
-    position: relative;
-    bottom: -100px;
+    margin: -50px 50px 50px 50px;
+    position: fixed;
+    left: 38%;
+    right: auto;
+    bottom: 0;
     border: 0px solid #03aabd;
     box-shadow: 5px 5px 30px black;
     
@@ -110,20 +102,19 @@ strong {
 }
 
 .about-me-container{
-    max-width: 600px;
-    height: 100px;
+    max-width: 1100px;
+    max-height: 100px;
     position: relative;
-    top: 0;
-    left: 100px;
+    right: -400px;
+    top: -550px;
+    left: auto;
     margin-left: -10px;
     padding-right: 10px;
 }
 
 .contacts{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    top:0;
     max-width: 250px;
     margin-left: 40px;
     
@@ -139,7 +130,6 @@ strong {
     color: black;
     font-weight: 600;
     border-radius: 5px;
-    padding-top: 0;
 }
 
 .tel-item{
@@ -162,11 +152,11 @@ strong {
 }
 
 .my-strengths{
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .my-goal {
-    margin: 0;
+    margin: 5px 0;
     max-width: 600px;
 }
 
@@ -176,57 +166,25 @@ h3{
 
 p{
     font-weight: 400;
-    margin: 5px 0;
 }
 
 .name-company{
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(20, 41, 41);
     font-size: 18px;
 }
 
-.github-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .github-item{
-    position: relative;
-    bottom: -100px;
-    margin: 5px 10px;
-}
+    position: fixed;
+    bottom: 50px;
+    left: 450px;
 
-footer{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.footer-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
 }
 
 .footer-text{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
-    position: relative;
-    bottom: -140px;
-    right: 120px;
-    margin: 0;
-    color: darkgreen;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 30px;
 }
-
-code {
-    color: crimson;
-    background: #98979759;
-    padding: 2px 1px 0 0;
-    font-size: 24px;
-    margin: 0;
-  }
