@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>My CV (html,css)</title>
 </head>
 <body>
-    
+
      <!--
     <header>
+        <main>
         <nav>
         <ul>
-        <li>About me</li>
-        <li>My project</li>
+        <li><a href="#"">Contacts</a></li>
+        <li>My projects</li>
         </ul>
         </nav>
+    </main>
     </header>
     -->
 
@@ -28,53 +30,111 @@
         <!--Photo-->
 
         <div class="image">
-            <img src="./image/logo.jpg" alt="photo" class="photo man">
+            <img src="./image/logo.jpg" alt="photo" class="my-photo">
         </div>
 
         <!--Contacts container-->
 
         <div class="contacts">
-            <ul class="contacts-item">
-                    <li class="contacts-item">
-                    <strong class="tel-item"></strong><img class="phone-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt=""><a class="phone" href="#">@MVS1986</a>
-                    </li>
 
-                    <li class="contacts-item">
+            <div class="contacts-item">
+                <ul>
+                    <li>  
+                        <strong class="tel-item"></strong><img class="phone-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkukQi5sQQFqioXiiHqIC-ppIE7_1HzSVQ1vylbAQXaw&s" alt=""><a class="phone" href="tel:+380986800160">@MVS1986</a>
+                    </li>
+                    <li>                    
                         <strong class="email-item"></strong><img class="email-icon" src="https://cdns.iconmonstr.com/wp-content/releases/preview/2012/240/iconmonstr-email-2.png" alt=""></strong><a class="mail" href="mailto:chornyiav@gmail.com">mogilovvs@gmail.com</a>
                     </li>
-
-                    <li class="location">
-                        <img class="location-icon" src="https://freesvg.org/img/ts-map-pin.png" alt="location icon"> <strong class="location-item">Ukraine</strong>
+                    <li>
+                        <img class="location-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgms-sUkvWcepcHqGfrs47f8S452Gc5mh66w&usqp=CAU" alt="location icon"> <strong class="location-item">Ukraine</strong>
                     </li>
                 </ul>
+            </div>
+
+
+            <div class="languages">
+                 
+                <strong class="languages-item"> <h3>languages:</h3>
+                        English: B1 <br>
+                        Ukraine: Native <br>
+                        Russia: C1
+                    
+                </strong>
+            </div>
         </div>
 
         <!--about me info-->
 
         <div class="about-me-container">
 
-            <h1>Mohil'ov Viktor</h1>
+            <h1><strong>M</strong>ohil'ov <strong>V</strong>iktor</h1>
 
             <div class="my-strengths">
+
+                <h3 class="strengths">Soft Skills:</h3>
+
                 <ul>
-                    <p><strong>My strengths:</strong></p>
-                    <li>Teamwork</li>
-                    <li>Purposefulness</li>
-                    <li>Ambition</li>
+                    
+                    <li>
+                        &#60;Teamwork&#47;&#62;</li>
+                    <li>&#60;Adaptability&#47;&#62;</li>
+                    <li>&#60;Purposefulness&#47;&#62;</li>
+                    <li>&#60;Problem solving&#47;&#62;</li>
                 </ul>
             </div>
 
             <!--My-goal-->
 
+            
             <div class="my-goal">
-                <h3>My goal</h3>
-                <p>Learn and understand the basics of programming that you need to know and be able to find employment this year(API, Javascript, TypeScript, React, Redux, Jquery)</p>
-                <p>English language level: B1. Intermediate.</p>
+                <h3 class="goal">About me:</h3>
+                <p>Learn and understand the basics of programming that you need to know and be able to find employment this year(API, Javascript, TypeScript, React, Redux, Jquery).</p>
+                
             </div>
 
+            <!--Education-->
+
+            <div class="education">
+                <h3>Education</h3>
+                <p>Kiyv Academy of Water Transport named after. Petro Konashevich-Sagaidachny</p>
+                <p>Faculty: Navigation.</p>
+            </div>
+
+            <!--working-->
+            <div class="working-container">
+                <h3 class="work">Places of work:</h3>
+                <p>SMM manager, social media administrator</p>
+                <p><strong class="name-company">RoseCase</strong></p>
+                <br>
+                <p>Store administrator, sales consultant</p>
+                <p><strong class="name-company">Sota-Alliance (Kyivstar)</strong></p>
+                <br>
+                <p>Call-centre operator</p>
+                <p><strong class="name-company">Monsterleed</strong></p>
+            </div>
+        </div>
+
+        <div class="code-exemple">
+            <p> HTML <code>&#60;button&#62;&#60;&#47;button&#62; </code> tag defines a clickable button.</p>
+            <p>The CSS <code>background-color: red;</code> property defines the background color of an element.</p>
         </div>
 
 
     </div>
+
+    <!---Footer-->
+
+    <footer>
+       <a href="https://github.com/Amvees">
+
+            <strong class="github-item">Github</strong>
+        </a>
+
+        <a class="link-logo" href="https://rs.school/js/">
+
+            <img class="logo" src="https://rs.school/images/rs_school_js.svg" alt="logo">
+        </a>
+        <p class="footer-text">2022</p>
+    </footer>
 </body>
 </html>
