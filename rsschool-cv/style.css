@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 body {
-    line-height: 1,6;
+    line-height: 1,8;
     font-size: 16px;
-    font-family: 'Poppins' sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *{
@@ -13,32 +13,151 @@ body {
     box-sizing: border-box;
     
 }
+.main-container{
+    background-color: azure;
+}
+
+.strengths {
+    font-weight: 600;
+}
+
+.goal{
+    font-weight: 600;
+}
 
 ul{
     list-style: none;
 }
 
-img{
-    height: 200px;
-    width: 180px;
+.my-photo{
+    height: 280px;
+    width: 250px;
     margin: 20px;
+    border: 1px solid black;
 }
 
-.main-container{
+.logo {
+    max-width: 80vh;
+    height: 50px;
+    margin: 0 10px;
+    padding: 5px 0;
+    position: relative;
+    left: 38%;
+    right: auto;
+    top: 0px;
+    border: 0px solid #03aabd;
+    box-shadow: 5px 5px 30px black;
+    
+}
+.logo:hover{
+    box-shadow: 1px 1px 50px #03aabd;
+}
 
+.phone-icon{
+    width: 30px;
+}
+
+.email-icon{
+    width: 30px;
+    margin: 0;
+   
+}
+
+.location-icon{
+    width: 40px;
+    margin: 0;
+}
+
+.languages-icon{
+    width: 30px;
+    margin-left: 5px;
+}
+
+.location-item{
+    margin-left: 1px;
+    color: #03aabd;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.languages-item{
+    margin-left: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.phone:hover{
+    box-shadow: 1px 1px 20px #03aabd;
+}
+
+
+.mail:hover{
+    box-shadow: 1px 1px 20px #03aabd;
+}
+
+strong {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 42px;
+    color: #03aabd;
 }
 
 .about-me-container{
-    position: absolute;
-    right: 100px;
-    top: 0;
+    max-width: 1100px;
+    max-height: 100px;
+    position: relative;
+    right: -400px;
+    top: -550px;
+    left: auto;
+    margin-left: -10px;
+    padding-right: 10px;
+    margin-bottom: 0;
 }
+
+.working-container{
+    margin: 0;
+    padding: 0;
+}
+
 .contacts{
     position: relative;
     top:0;
     max-width: 250px;
-    margin: 10px;
+    margin-left: 40px;
     
+}
+
+.contacts-item{
+    margin-left: 5px;
+    
+}
+
+.phone {
+    margin-left: 5px;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.tel-item{
+    color: #03aabd;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mail {
+    margin-left: 5px;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.email-item{
+    color: #03aabd;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .my-strengths{
@@ -47,4 +166,59 @@ img{
 
 .my-goal {
     margin: 5px 0;
+    max-width: 600px;
+}
+
+h3{
+    margin: 5px 0px;
+}
+
+p{
+    font-weight: 400;
+}
+
+.name-company{
+    font-weight: 500;
+    color: rgb(20, 41, 41);
+    font-size: 18px;
+}
+
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+  }
+
+  .code-exemple{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 60px;
+  }
+
+  footer{
+    background-color: #bdd3d4;
+    padding: 20px;
+  }
+
+.github-item{
+    position: relative;
+    bottom: 10px;
+    left: 30%;
+
+}
+
+.github-item:hover{
+    box-shadow: 1px 1px 50px #03aabd;
+}
+
+.footer-text{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 30px;
 }
